@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
+  .header-right {
+    float: none;
+    text-align: right;
+  }
+}
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #1977cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3291e6;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+@media (max-height: 600px) {
+  #hero {
+    height: auto;
+  }
+}
+.container-fluid {
+  overflow: hidden;
+  margin-top: 100px;
+  background:#99ccff;
+  color: #627482 !important;
+  margin-bottom: 0;
+  padding-bottom: 0
+}
