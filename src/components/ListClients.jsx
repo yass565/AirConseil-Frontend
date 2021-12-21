@@ -39,7 +39,7 @@ class ListClients extends Component {
     
     render() {
         return (
-            <div>
+            <div className='container'>
                 <h2 className="text-center">Liste des clients</h2>
                 <div className="row">
                     <button className="btn btn-primary" onClick={this.addClient}>Ajouter un client</button>
